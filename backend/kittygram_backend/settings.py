@@ -12,6 +12,8 @@ ALLOWED_HOSTS = ['polina-dev.work.gd', '127.0.0.1']
 
 CSRF_TRUSTED_ORIGINS = ['https://polina-dev.work.gd']
 
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
