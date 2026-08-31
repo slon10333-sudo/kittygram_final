@@ -18,14 +18,14 @@ services:
     volumes:
       - media:/app/media
       - static:/backend_static
-    build: ./backend/
+    image: noherzeg/kittygram_backend:latest
     
   frontend:
     env_file: .env
-    build: ./frontend/
     volumes:
       - static:/static
     command: cp -r /app/build/. /static/
+    image: noherzeg/kittygram_frontend:latest
   gateway:
     depends_on:
       - backend
@@ -35,4 +35,4 @@ services:
       - media:/media
     ports:
       - 8000:80
-    build: ./nginx/
+    image: noherzeg/kittygram_gateway:latest
