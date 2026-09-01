@@ -103,6 +103,7 @@ celerybeat.pid
 
 # Environments
 .env
+.env.docker
 .venv
 env/
 venv/
@@ -150,3 +151,5 @@ media/
 
 # Others
 node_modules
+
+docker-compose.yml
