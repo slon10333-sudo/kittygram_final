@@ -168,21 +168,6 @@ Kittygram: https://polina-dev.work.gd
 
 Домен проекта указан в конфигурации автотестов. (GitHub)
 
-📁 Структура проекта
-
-kittygram_final/
-├── backend/                    # Django + REST API
-├── frontend/                   # React-приложение
-├── nginx/                      # Конфигурация gateway
-├── tests/                      # Тесты проекта
-├── .github/
-│   └── workflows/              # GitHub Actions
-├── docker-compose.production.yml
-├── kittygram_workflow.yml
-├── tests.yml
-├── pytest.ini
-├── setup.cfg
-└── README.me
 
 👨‍💻 Автор
 
