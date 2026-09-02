@@ -2,6 +2,7 @@
 
 [![Main kittygram workflow](https://github.com/slon10333-sudo/kittygram_final/actions/workflows/main.yml/badge.svg)](https://github.com/slon10333-sudo/kittygram_final/actions/workflows/main.yml)
 
+
 Kittygram — веб-приложение для владельцев котиков. Пользователи могут создавать профили своих питомцев, добавлять фотографии, рассказывать о них и отмечать достижения.
 
 Проект развёрнут в Docker-контейнерах и использует автоматизированный CI/CD-процесс с помощью GitHub Actions.
